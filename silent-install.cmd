@@ -15,4 +15,3 @@ echo using file %%a as source
 )
 ) else echo %n% is already installed
 endlocal
-pause

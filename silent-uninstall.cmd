@@ -24,4 +24,3 @@ start /wait "" "%%a" /VERYSILENT /NORESTART
 reg query "%sw%\%u%\%k%" > nul 2>&1
 if !errorlevel!==0 goto CheckUninstallKey
 endlocal
-pause
