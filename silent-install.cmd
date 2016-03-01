@@ -1,6 +1,6 @@
 @echo off
-set path=%path%;%~dp0
 setlocal EnableDelayedExpansion
+set path=%path%;%~dp0
 set sw=HKLM\SOFTWARE
 set u=Microsoft\Windows\CurrentVersion\Uninstall
 set n=PDFCreator
